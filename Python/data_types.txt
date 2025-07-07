@@ -1,0 +1,6 @@
+DEFINITION: Every data inside a computer program has a type. The type exists to define expected behaviour for each data and to give structure to the program.
+For example, if we have numerical data inside a computer program, we can't perform operations related to text data. The same way, if we have 
+text data, we can't perform operations related to numerical data. This is all defined through the data types of each data.
+
+=====
+
