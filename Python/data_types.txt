@@ -2,5 +2,27 @@ DEFINITION: Every data inside a computer program has a type. The type exists to 
 For example, if we have numerical data inside a computer program, we can't perform operations related to text data. The same way, if we have 
 text data, we can't perform operations related to numerical data. This is all defined through the data types of each data.
 
+-> Each data point inside a computer or a computer program has an adjacent data type.
+
 =====
 
+DEFINITION: When it comes to programming languages, there is something called "built-in data types". This term refers to the fact that each programming 
+language has its own built-in set of data types. This means that, usually, the data types vary from language to language.
+
+=====
+
+Python's built-in data types:
+    
+    Text: str(string)
+    Numerical: int, float, complex
+    Sequence: list, tuple, range
+    Mapping: dict
+    Set: set, frozenset
+    Boolan: bool
+    Binary: bytes, bytearray, memoryview
+    None: NoneType
+
+    What this means is: Every single data point inside a computer program written in Python will belong to one of these categories.
+    Where the data point is will define its expected behaviour.
+
+    
