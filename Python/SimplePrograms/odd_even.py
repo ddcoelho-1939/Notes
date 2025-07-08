@@ -6,11 +6,17 @@
 # Third: I need to check if the input is odd or even
 # Fourth: I need to show the answer to the user
 
-my_variable = int(input("Provide an integer: ")) # first and second step
+while True:
+    my_variable = input("Provide an integer [or q to quit the program]: ") # first and second step
 
-if my_variable % 2 == 0: # third step
-    print(f"{my_variable} is even.") # fourth step
-else: # third step
-    print(f"{my_variable} is odd.") # fourth step
+    if my_variable == "q":
+        break
 
-# DONE! (first version)
+    my_variable = int(my_variable)
+
+    if my_variable % 2 == 0: # third step
+        print(f"{my_variable} is even.") # fourth step
+    else: # third step
+        print(f"{my_variable} is odd.") # fourth step
+
+# DONE! (second version)
